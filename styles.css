@@ -133,3 +133,31 @@ body{
   display: flex;
   
 }
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        width: 200px;
+        height: 60px;
+    }
+
+    .dtails {
+        margin: 20px;
+    }
+
+    .imges {
+        display: none;
+    }
+
+    /* Add more styles for other elements as needed for mobile devices */
+}
+
+
