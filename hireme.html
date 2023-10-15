@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techexplorer - Hire Me</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js"></script>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+</head>
+<body class="">
+    <div class="hero">
+        <nav class="navbar">
+            <a href="index.html"><img src="images\logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Travel.html">TRAVEL</a></li>
+                    <li><a href="Fashion.html">FASHION</a></li>
+                <li><a href="hireme.html">HIRE ME</a></li>
+            </ul>
+        </nav>
+
+       
+
+        <div class="hire-me">
+            <h2>Hire Me</h2>
+            <p>If you're interested in working with me, please provide your information and details about your project or appointment below.</p>
+            
+            <form id="hireForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="services">Type of Services:</label>
+                    <select id="services" name="services" required>
+                        <option value="Web Development (HTML, CSS, JavaScript)">Web Development (HTML, CSS, JavaScript)</option>
+                        <option value="Programming (Python, Java)">Programming (Python, Java)</option>
+                        <option value="Database Management (SQL)">Database Management (SQL)</option>
+                        <option value="UI/UX Design">UI/UX Design</option>
+                        <option value="Problem Solving">Problem Solving</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="appointment">Preferred Appointment Date & Time:</label>
+                    <input type="datetime-local" id="appointment" name="appointment" required>
+                </div>
+        
+                <button type="submit" id="submitBtn">Submit</button>
+            </form>
+        </div>
+        
+</body>
+</html>
